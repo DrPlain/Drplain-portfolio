@@ -29,13 +29,14 @@ export default function Profile() {
           <h2 className="text-sky-800 pb-4 font-bold text-3xl">Education</h2>
           <p>
             I was privileged to be trained by ALX-HOLBERTON which is a one-year
-            project-based full stack engineering program sponsored by Mastercard
-            Foundations. In the first 9-months, I was trained to obtain
-            foundational knowledge of in-demand tech skills like system devops,
-            system administration, algorithms, webstacks, debugging, frontend
-            and backend development. I specialised in backend devlopment in the
-            last three months of the program within which I gained indepth
-            experience of backend technologies and concepts.
+            project-based full stack software engineering program sponsored by
+            Mastercard Foundations. In the first 9-months, I was trained to
+            obtain foundational knowledge of in-demand tech skills like system
+            devops, system administration, algorithms, data structures,
+            webstacks, debugging, frontend and backend development. I
+            specialised in backend devlopment in the last three months of the
+            program within which I gained indepth experience of backend
+            technologies and concepts.
           </p>
           <br />
         </div>
