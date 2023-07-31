@@ -150,15 +150,15 @@ export default function Experience() {
       name="experience"
       className="bg-gradient-to-b from-white via-cyan-100 to-white w-full"
     >
-      <div className="px-5 mt-32 md:px-20 pt-4 shadow-md rounded-full md:w-[80%] w-[95%] mb-10 mx-auto">
+      <div className="px-5 mt-32 md:px-20 pt-4 shadow-md rounded-full md:w-[80%] w-[95%] mb-10 mx-auto font-courgette">
         <p className="text-3xl md:text-4xl text-center text-orange-600 font-bold">
           Experience
         </p>
-        <p className="text-center p-4 text-xl md:text-3xl font-bold text-sky-800 italic ">
+        <p className="text-center p-4 text-xl md:text-3xl font-bold text-sky-800 ">
           These are technologies I have worked with
         </p>
       </div>
-      <div className="mx-auto p-5 flex flex-col justify-center w-full h-full text-sky-800 md:px-20 ">
+      <div className="mx-auto p-5 flex flex-col justify-center w-full h-full text-sky-800 md:px-20 font-courgette ">
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py8 px-12 sm:px-0">
           {technologies.map(({ id, name, src }) => (
             <div

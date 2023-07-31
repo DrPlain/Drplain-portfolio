@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="fixed top-0 z-10 bg-white flex items-center h-24 w-full justify-between mx-auto">
       {/* Logo */}
       <Link to="/">
-        <h2 className="text-4xl p-2 font-bold text-sky-800">
+        <h2 className="text-4xl p-2 font-bold text-sky-800 font-vibes">
           Portfolio{" "}
           <span className="text-xl text-orange-600">Gideon Obiasor</span>
         </h2>

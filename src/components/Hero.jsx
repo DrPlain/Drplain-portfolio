@@ -15,11 +15,11 @@ export default function Hero() {
             alt="Image of programming setup"
           />
         </div>
-        <p className="text-sky-800 text-2xl italic p-10 font-semibold">
+        <p className="text-sky-800 text-3xl p-10 font-courgette">
           I&apos;m a{" "}
-          <span className="text-orange-600">full stack developer</span> from
-          Nigeria with a knack for problem-solving and a passion for creating
-          robust and user-friendly applications
+          <span className="text-orange-600">full stack developer</span> with a
+          knack for problem-solving and a passion for creating robust and
+          user-friendly applications
         </p>
         <Link to={"/contact"}>
           <button className="bg-sky-800 text-white hover:bg-orange-600 m-2 p-2 text-xl font-bold rounded-xl hidden md:block">

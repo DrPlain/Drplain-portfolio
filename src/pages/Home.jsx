@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-b from-white  via-cyan-100 to-white">
+    <div className="font-roboto h-screen bg-gradient-to-b from-white  via-cyan-100 to-white">
       {/* <Showcase /> */}
       <Hero />
       <Profile />

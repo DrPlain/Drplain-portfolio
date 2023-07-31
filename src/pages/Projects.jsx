@@ -36,11 +36,11 @@ export default function Projects() {
       name="projects"
       className="bg-gradient-to-b from-white via-cyan-100 to-white md:mt-28"
     >
-      <div className="pb-8 px-5 md:px-20 m-10 pt-4 shadow-md round rounded-full md:w-[80%] w-[95%] mb-10 mx-auto">
-        <p className="text-3xl md:text-4xl text-center text-orange-600 font-bold pb-2">
+      <div className="pb-8 px-5 md:px-20 m-10 pt-4 shadow-md round rounded-full md:w-[80%] w-[95%] mb-10 mx-auto font-">
+        <p className="text-3xl md:text-4xl text-center text-orange-600 font-bold pb-2 font-courgette">
           Projects
         </p>
-        <p className="text-2xl md:text-3xl p-3 text-sky-800 font-bold text-center italic">
+        <p className="text-2xl md:text-3xl p-3 text-sky-800 font-bold text-center font-courgette">
           Here are some of my works
         </p>
       </div>

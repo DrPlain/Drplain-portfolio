@@ -3,7 +3,7 @@ export default function Profile() {
   return (
     <div className="md:mt-24 mt-6">
       <div className="">
-        <h1 className="text-3xl md:text-4xl font-bold text-orange-600 text-center p-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-orange-600 text-center p-2 font-courgette">
           More about me...
         </h1>
       </div>
