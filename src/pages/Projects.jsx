@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <div
       name="projects"
-      className="w-full bg-gradient-to-b from-white via-cyan-100 to-white md:mt-28"
+      className="bg-gradient-to-b from-white via-cyan-100 to-white md:mt-28"
     >
       <div className="pb-8 px-5 md:px-20 m-10 pt-4 shadow-md round rounded-full md:w-[80%] w-[95%] mb-10 mx-auto">
         <p className="text-3xl md:text-4xl text-center text-orange-600 font-bold pb-2">
@@ -43,15 +43,15 @@ export default function Projects() {
         <p className="text-2xl md:text-3xl p-3 text-sky-800 font-bold text-center italic">
           Here are some of my works
         </p>
-        {/* <p className="py-6 text-xl text-sky-800">
-          Check out some of my works right here
-        </p> */}
       </div>
-      <div className=" p-4 mx-auto flex flex-col justify-center w-[80%] h-full">
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-5 sm:px-0">
+      <div className=" p-4 md:px-20 mx-auto h-full">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12 px-5 sm:px-0 mx-auto">
           {portfolios.map(
             ({ id, src, description, title, github, demoUrl }) => (
-              <div key={id} className="shadow-md shadow-sky-800 rounded-lg">
+              <div
+                key={id}
+                className="shadow-md shadow-sky-800 rounded-lg mx-auto"
+              >
                 <h2 className="text-2xl text-sky-800 p-4 font-bold text-center">
                   Project name: {title}
                 </h2>
