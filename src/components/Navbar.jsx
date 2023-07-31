@@ -10,6 +10,11 @@ const Navbar = () => {
     setNavOpen((prevState) => !prevState);
   };
 
+  const handleNavItemClick = () => {
+    // Close the navbar when a navbar item is clicked
+    setNavOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 z-10 bg-white flex items-center h-24 w-full justify-between mx-auto">
       {/* Logo */}
@@ -46,17 +51,42 @@ const Navbar = () => {
       {/* Mobile Nav Links */}
       {isNavOpen && (
         <ul className="fixed left-0 top-0 my-[80px] text-xl uppercase font-bold bg-white w-full ease-in-out duration-500 md:hidden">
-          <NavItem to="/" isNavOpen={isNavOpen} label="Home" />
-          <NavItem to="/projects" isNavOpen={isNavOpen} label="Projects" />
-          <NavItem to="/contact" isNavOpen={isNavOpen} label="Contact" />
-          <NavItem to="/profile" isNavOpen={isNavOpen} label="Profile" />
+          <NavItem
+            to="/"
+            isNavOpen={isNavOpen}
+            label="Home"
+            onClick={handleNavItemClick}
+          />
+          <NavItem
+            to="/projects"
+            isNavOpen={isNavOpen}
+            label="Projects"
+            onClick={handleNavItemClick}
+          />
+          <NavItem
+            to="/contact"
+            isNavOpen={isNavOpen}
+            label="Contact"
+            onClick={handleNavItemClick}
+          />
+          <NavItem
+            to="/profile"
+            isNavOpen={isNavOpen}
+            label="Profile"
+            onClick={handleNavItemClick}
+          />
         </ul>
       )}
     </nav>
   );
 };
 
-const NavItem = ({ label, isNavOpen, to }) => {
+const NavItem = ({ label, isNavOpen, to, onClick }) => {
+  const handleItemClick = () => {
+    if (typeof onClick === "function") {
+      onClick(); // Call the provided onClick handler if it's a function
+    }
+  };
   return (
     <li
       className={`py-2 px-4 hover:bg-sky-800 hover:text-white text-sky-800 ${
@@ -64,6 +94,7 @@ const NavItem = ({ label, isNavOpen, to }) => {
           ? "border-b md:border md:rounded-lg md:m-2 md:hover:bg-sky-800 md:hover:text-white"
           : "border m-2 rounded-lg hover:bg-sky-800 hover:text-white"
       } border-blue-200`}
+      onClick={handleItemClick}
     >
       <Link to={to}>{label}</Link>
     </li>

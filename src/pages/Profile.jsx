@@ -49,8 +49,8 @@ export default function Profile() {
             Redis; SQL databases like MySQL; Django, Flask, Docker and C. I can
             comfortably work with teams using collaboration tools like GIT and
             Kanban boards. <br />
-            <br />I am one of the two backend engineers who developed and
-            manages a housing and accomodation service: Latent.
+            <br />I am one of the two backend engineers who developed and manage
+            a housing and accomodation service: Latent.
           </p>
           <br />
         </div>
