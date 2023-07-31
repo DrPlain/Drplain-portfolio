@@ -50,7 +50,7 @@ const Navbar = () => {
 
       {/* Mobile Nav Links */}
       {isNavOpen && (
-        <ul className="fixed left-0 top-0 my-[80px] text-xl uppercase font-bold bg-white w-full ease-in-out duration-500 md:hidden">
+        <ul className="fixed left-0 top-0 my-[90px] text-xl uppercase font-bold bg-white w-full ease-in-out duration-500 md:hidden">
           <NavItem
             to="/"
             isNavOpen={isNavOpen}

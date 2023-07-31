@@ -14,13 +14,13 @@ export default function Profile() {
         <div className="md:px-20 py-5 px-5 text-sky-800 text-lg font-semibold">
           <h2 className="text-sky-800 pb-4 font-bold text-3xl">Bio</h2>
           <p>
-            I am Gideon Obiasor, a Full stack software with backend expertise
-            and a member of The Room fellowship which is a group of world-class
-            tech talents from Africa. After acheiving my first degree as a
-            medical doctor, I realised that one of the numerous problems facing
-            healthcare in Africa is paucity of software integrations and
-            automations amongst other things. This awareness alongside my
-            passion for building things made me seek for a career in tech.
+            I am Gideon Obiasor, a Full stack software engineer and a member of
+            The Room fellowship which is a group of world-class tech talents
+            from Africa. After acheiving my first degree as a medical doctor, I
+            realised that one of the numerous problems facing healthcare in
+            Africa is paucity of software integrations and automations amongst
+            other things. This awareness alongside my passion for building
+            things made me seek for a career in tech.
           </p>
           <br />
         </div>
