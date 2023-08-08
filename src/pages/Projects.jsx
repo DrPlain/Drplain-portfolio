@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Latent from "../assets/bg3.jpg";
 import Latent2 from "../assets/homeLatent2.png";
 import Sigma from "../assets/sigma.png";
+import frontendMentors from "../assets/darkMode.png";
 
 export default function Projects() {
   const portfolios = [
@@ -29,6 +30,15 @@ export default function Projects() {
       title: "Files Manager",
       github: "https://github.com/DrPlain/alx-files_manager",
       demoUrl: "https://github.com/DrPlain/alx-files_manager",
+    },
+
+    {
+      id: 4,
+      src: frontendMentors,
+      description: "Series of frontend challenges from frontend Mentors",
+      title: "Frontend Mentors challenges",
+      github: "https://github.com/DrPlain/frontend-rest-coutries-api",
+      demoUrl: "https://www.frontendmentor.io/profile/DrPlain",
     },
   ];
   return (
